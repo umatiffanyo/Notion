@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inter;
+    padding: 16px;
+    gap: 3em;
+}
+.notionlogo{
+    margin-left: 15px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6em;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-left: 110px;
+}
+.nav-links li{
+    padding: 7px;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+.nav-links li:hover{
+    background-color: #F0F0F0;
+    padding: 7px;
+}
+
+.nav-links a {
+    color: black;
+}
+.herosection-vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto ;
+}
+
+.login button{
+    width: 60px;
+    padding: 5px;
+    /* border: 2px solid lack; */
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    font-family: inter;
+    font-weight: 530;
+    font-size: 14px;
+
+}
+.hamburger{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    display: none;
+}
+.hamburger span{
+    display: block;
+    width: 20px;
+    height: 2px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.login button:hover{
+    background-color: #F0F0F0;
+}
+.signup button{
+    width: 130px;
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    background-color: #0075DE;
+    color: white;
+    font-size: 13.3px;
+    font-weight: 540;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    font-family: inter;
+    transition: all 0.1s ease-in-out;
+}
+
+.signup button:hover{
+    opacity: 0.94;
+}
+.wordings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.word1{
+    text-align: center;
+    color: black;
+    font-family: inter;
+    font-size:64px ;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.word3{
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: inter;
+    margin-top: 10px;
+}
+
+.sect1-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    gap: 1em;
+}
+
+.sect1-btn1 {
+    background-color: #0075DE;
+    /* border: 2px solid black; */
+    border: none;
+    padding: 6px;
+    text-align: center;
+    height: 45px;
+    border-radius: 9px;
+    font-family: inter;
+    font-weight: 550;
+    font-size: 15px;
+    color: white;
+    width: 160px;
+    transition: all 0.2s;
+}
+.sect1-btn1:hover{
+    opacity: 0.9;
+}
+.sect1-btn2 {
+    background-color: #E6F3FE;
+    border: none;
+    padding: 6px;
+    text-align: center;
+    height: 45px;
+    border-radius: 9px;
+    font-family: inter;
+    font-weight: 550;
+    font-size: 16px;
+    color: #005BAB;
+    width: 160px;
+    transition: all ease 0.1s;
+
+}
+.sect1-btn2:hover{
+    background-color: #F2F9FF;
+}
+
+/* the mediq query */
+
+@media(max-width:1200px){
+    .main-container{
+        gap: 2.6em;
+    }
+    .hamburger{
+        display: flex;
+        /* margin-left: 5px; */
+    }
+    .nav-links{
+        display: none;
+    }
+    .header-btns{
+        /* margin-left: 790px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.sect2{
+    margin-top: 35px;
+    /* border: 2px solid blueviolet; */
+    background-color: white;
+}
+
+.sect2-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sect2vid{
+    /* border: 2px solid yellow; */
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.sect2-word1{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.6;
+
+}
+.sect2-words{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.sect2-words img{
+    width: 80px;
+}
+
+.sect3{
+    background-color: #F6F5F4;
+}
+.sect3-mainbox{
+    border: 2px solid firebrick;
+    display: grid;
+}
+.sect3-heading{
+    font-family: inter;
+    color: #191918;
+    font-weight: 700;
+    font-size: 54px;
+    padding: 50px;
+    margin-left: 24px;
+}
+.leftside{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border: 2px solid gold;
+    border-radius: 20px;
+}
+.assign{
+    font-family: inter;
+    font-size: 26px;
+    font-weight: 700;
+    color: #191918;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.firstline{
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.notion{
+    font-family: inter;
+    font-weight: 350;
+    font-size: 16px;
+    display: inline;
+}
+.new a{
+    display: inline-block;
+}
+
+.new button{
+    background-color: #F2F9FF;
+    padding: 3px;
+    width: 40px;
+    color: #005BBE;
+    border-radius: 10px;
+    border: none;
+    font-family: inter;
+    font-weight: 600;
+    font-size:12px ;
+}
+
+
+.arrow button{
+    margin-top: 5px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.15s;
+}
+
+.arrow button:hover{
+    opacity: 0.8;
+}
+.arrow button i{
+    color: white;
+    font-size: 13px;
+    
+}
+
+.everything{
+    margin-top: 50px;
+}
+.first-carosel{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    padding: 14px; 
+    width: 400px; 
+    /* border-bottom: 1px solid black; */
+    /* border-radius: 10px; */
+    transition: all ease-in-out 0.3s;
+}
+
+.first-carosel:hover{
+    background-color: #F6F5F4;
+    cursor: pointer;
+    padding: 14px;
+    width: 300px;
+    /* border-bottom: 1px solid black; */
+    border-radius: 10px;
+}
+
+.notshow{
+    color: #000;
+    opacity: 0.4;
+    font-family: inter;
+    font-size: 16px;
+    display: none;
+}
+
+.rightside{
+    background-image: url("../images/accordion-background.avif");
+    width: 20%;
+    height: 20%;
+    border: 2px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sect-4{
+    background-color: white;
+
+}
+
+.sect4-head{
+    display: flex;
+    padding: 30px;
+}
+
+.prod{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 54px;
+    color: black;
+    line-height: 56px;
+}
+
+.bring{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+    color: black;
+    margin-bottom: 13px;
+}
+
+.pricing{
+    font-family: inter;
+    font-weight: 400;
+    color: #0075DE;
+    font-size: 16px;
+    line-height: 24px;
+    transition: all ease-in-out 0.3s;
+}
+
+.sect4-head.words{
+    display: block;
+}
+
+.pricing:hover{
+    text-decoration: underline;
+}
+
+.sect4-head.image img{
+    max-width: 100%;
+    width: 600px;
+    height: 76px; 
+    margin-top: 130px;
+}
