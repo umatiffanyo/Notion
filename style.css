@@ -407,3 +407,381 @@
     height: 76px; 
     margin-top: 130px;
 }
+
+
+/* The Fifth Section | :)  */
+.section-5{
+    background-color: #F6F5F4;
+}
+.trusted{
+    font-family: inter;
+    font-size: 56px;
+    font-weight: 700;
+    color: #000;
+}
+
+.open-ai{
+    width: 120px;
+}
+
+.section5-headings {
+    border: 2px solid firebrick;
+}
+
+.section5-headings p{
+    font-family: source serif4;
+    font-weight: 300;
+    font-size: 32px;
+    color: black;
+    line-height: 40px;
+}
+.section5-headings span{
+    font-family: inter;
+    font-weight: 400;
+    color: #0075de;
+    font-size: 16px;
+    transition: all ease-in-out 0.3s;
+}
+
+.section5-headings span:hover{
+    text-decoration: underline;
+    color: #00396b;
+}
+
+.section5-headings span i{
+    font-size: 11px;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 800px;
+  border-radius:16px ;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+/* Poster image */
+.video-poster {
+  position: absolute;
+  inset: 0;
+  width:  500px;
+  border-radius: 10%;
+  background: black;
+  height: 500px;
+  object-fit: contain;
+  z-index: 2;        
+}
+
+/* Play button */
+/* .play-button {
+  position: absolute;
+  inset: 0;
+  z-index: 3;          
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  color: white;
+  cursor: pointer;
+} */
+
+/* Iframe (video) */
+/* .video-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 400px;
+    border-radius: 10%;
+  height: 400px;
+  z-index: 1;          
+}  */
+
+.section5-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 1.5em;
+    justify-content: center;
+    padding: 20px;
+}
+
+.section5-box{
+    border-radius: 15px;
+    /* width: 300px; */
+    background-color: white;
+    padding: 20px;
+
+}
+
+.section5-box img{
+    width: 75px;
+    margin-bottom: 14px;
+}
+
+.normal{
+    font-family: inter;
+    font-weight: 350;
+    font-size: 16px;
+    position: relative; 
+    color: #191918;
+    line-height: 24px;
+}
+
+.quote{
+    font-family: inter;
+    font-weight: 350;
+    font-size: 16px;
+    position: relative;
+    padding-left: 7px;  
+    color: #191918;
+    line-height: 24px;
+}
+.quote::before {
+    content: "”";
+    position: absolute;
+    margin-left: 0.1em;
+
+    font-size: 1.1em;
+    line-height: 1;
+    color: #191918;
+}
+.quote::after{
+    content: "”";
+    position: absolute;
+    left: 0;
+    top: 0.15em;
+    font-size: 1.1em;
+    font-family: inter;
+    font-weight: 350;
+    line-height: 1;
+    color: #191918; 
+}
+.section5-box i{
+    font-size: 11px;
+    display: inline-flex;
+    font-weight: 600;
+    vertical-align: middle;
+}
+/* The Footer | ^-^  */
+footer{
+    display: flex;
+    padding: 60px;
+    background-color: white;
+    justify-content: center;
+    gap: 70px ;
+}
+
+.notion-image img{
+    width: 133px;
+}
+
+.footer-socials{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    gap: 9px;
+}
+.footer-socials i {
+    font-size:19px;
+    color: #757575;
+    /* padding: 3px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-instagram{
+    transition: all ease-in-out 0.2s;
+}
+
+.fa-instagram:hover{
+    background-color: #E5E5E5;
+    color: black;
+}
+
+.fa-linkedin{
+    transition: all ease-in-out 0.2s;
+}
+
+.fa-linkedin:hover{
+    background-color: #E5E5E5;
+    color: #3071AA;
+}
+.fa-x-twitter{
+    transition: all ease-in-out 0.2s;
+}
+
+.fa-x-twitter:hover{
+    background-color: #E5E5E5;
+    color: black;
+}
+.fa-facebook{
+    transition: all ease-in-out 0.2s;
+}
+
+.fa-facebook:hover{
+    background-color: #E5E5E5;
+    color: #4267B2;
+}
+.fa-youtube{
+    transition: all ease-in-out 0.2s;
+}
+
+.fa-youtube:hover{
+    background-color: #E5E5E5;
+    color: #FF0000;
+}
+.language-box{
+    border: 0.5px solid #DDDCDB;
+    border-radius: 10px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 160px;
+    transition: all ease-in-out 0.2s;
+}
+
+.language-box:hover{
+    background-color: #F6F5F4;
+}
+
+.language-link {
+  display: inline-flex;     
+  align-items: center;      
+  justify-content: center;
+  gap: 8px;                  
+  text-decoration: none;
+  color: #000;
+}
+
+.language-link span{
+    font-family: inter;
+    font-weight: 450;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;  
+    gap: 6px;
+}
+
+.language-link span i{
+    font-size: 8px;
+}
+
+.footer-1stsection{
+    margin-top: 18px;
+}
+.footer-1stsection p{
+    color: #757575;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: inter;
+} 
+
+.cookie{
+    margin-bottom: 18px;
+}
+
+.companies h2{
+    font-family: inter;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.companies li{
+    font-family: inter;
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 20px;
+    color: #31302e;
+    margin-bottom: 6px;
+    transition: all ease-in-out 0.3s;
+}
+
+.companies li:hover{
+    text-decoration: underline;
+}
+.resources h2{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 6px;
+    line-height: 20px;
+}
+.resources li{
+    font-family: inter;
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 20px;
+    color: #31302e;
+    margin-bottom: 6px;
+    transition: all ease-in-out 0.3s;
+}
+
+.resources li:hover{
+    text-decoration: underline;
+}
+.downloads h2{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 6px;
+}
+
+.downloads li{
+    font-family: inter;
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 20px;
+    color: #31302e;
+    margin-bottom: 6px;
+    transition: all ease-in-out 0.3s;
+}
+
+.downloads li:hover{
+    text-decoration: underline;
+}
+
+.notion-for h2{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 6px;
+}
+
+.notion-for li{
+    font-family: inter;
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 20px;
+    color: #31302e;
+    margin-bottom: 6px;
+    transition: all ease-in-out 0.3s;
+}
+
+.notion-for span{
+    font-family: inter;
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+    margin-top: 80px;
+    transition: all ease-in-out 0.3s;
+}
+
+.notion-for span:hover{
+    text-decoration: underline;
+}
+
+.notion-for span i{
+    font-size: 11px;
+}
+.notion-for li:hover{
+    text-decoration: underline;
+}
